@@ -259,8 +259,14 @@ box-shadow:0 0 15px rgba(255,215,100,0.9);
 .slide-item {
   width: min(1100px, 92vw);
   min-width: min(1100px, 92vw);
-  height: 360px;
+  height: 260px;
   flex-shrink: 0;
+}
+
+@media (min-width: 768px) {
+  .slide-item {
+    height: 320px;
+  }
 }
 
 /* ---------- GLASS NAV ---------- */
